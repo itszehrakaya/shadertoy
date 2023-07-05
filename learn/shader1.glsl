@@ -1,7 +1,7 @@
 void mainImage( out vec4 fragColor, in vec2 fragCoord )
 {
     vec2 resolution = iResolution.xy;
-    vec3 boxColor = vec3(0.5804, 0.702, 0.6157); // Blue color
+    vec3 boxColor = vec3(0.9216, 0.0, 0.7059); // Blue color
 
     // Center the box in the middle of the screen
     vec2 boxCenter = resolution / 2.0;
